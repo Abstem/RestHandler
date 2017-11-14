@@ -1,0 +1,28 @@
+{
+  "name": "abstem/rest-handler",
+  "description": "A Laravel handler for custom exception on rest requests.",
+  "keywords": [
+    "laravel",
+    "restful",
+    "rest",
+    "api",
+    "abstem"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reginaldo Junior",
+      "email": "reginaldo.junior696@gmail.com"
+    }
+  ],
+  "type": "project",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Abstem\\RestHandler\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
